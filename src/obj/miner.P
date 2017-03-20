@@ -1,0 +1,10 @@
+obj/miner.o: miner.cpp core.h uint256.h serialize.h allocators.h \
+ version.h clientversion.h script.h keystore.h crypter.h key.h hash.h \
+ sync.h threadsafety.h bignum.h util.h netbase.h compat.h wallet.h \
+ walletdb.h db.h base58.h chainparams.h main.h net.h mruset.h \
+ limitedmap.h protocol.h addrman.h bloom.h ui_interface.h miner.h
+miner.cpp core.h uint256.h serialize.h allocators.h :
+ version.h clientversion.h script.h keystore.h crypter.h key.h hash.h :
+ sync.h threadsafety.h bignum.h util.h netbase.h compat.h wallet.h :
+ walletdb.h db.h base58.h chainparams.h main.h net.h mruset.h :
+ limitedmap.h protocol.h addrman.h bloom.h ui_interface.h miner.h :
